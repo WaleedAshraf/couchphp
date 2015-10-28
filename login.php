@@ -1,5 +1,5 @@
 <?php
-$cb = new Couchbase("counterstrikevm.cloudapp.net:8091", "", "", "default");
+$cb = new Couchbase("http://counterstrikevm.cloudapp.net:8091/", "", "", "default");
 session_start();
 $email = $_POST["email"];
 $password = $_POST["password"];
